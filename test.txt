@@ -1,0 +1,353 @@
+Now testing Queue Enqueue and DeQueue function:
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 1 put it into the queue.
+Now the queue is:
+head=0  tail=1  size=1
+1 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4 put it into the queue.
+Now the queue is:
+head=0  tail=2  size=2
+1 4 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 1 put it into the queue.
+Now the queue is:
+head=0  tail=3  size=3
+1 4 1 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6 put it into the queue.
+Now the queue is:
+head=0  tail=4  size=4
+1 4 1 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 8 put it into the queue.
+Now the queue is:
+head=0  tail=5  size=5
+1 4 1 6 8 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4 put it into the queue.
+Now the queue is:
+head=0  tail=6  size=6
+1 4 1 6 8 4 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 1 is DeQueued.
+Now the queue is:
+head=1  tail=6  size=5
+4 1 6 8 4 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4 is DeQueued.
+Now the queue is:
+head=2  tail=6  size=4
+1 6 8 4 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 1 is DeQueued.
+Now the queue is:
+head=3  tail=6  size=3
+6 8 4 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0 put it into the queue.
+Now the queue is:
+head=3  tail=7  size=4
+6 8 4 0 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 6 is DeQueued.
+Now the queue is:
+head=4  tail=7  size=3
+8 4 0 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4 put it into the queue.
+Now the queue is:
+head=4  tail=8  size=4
+8 4 0 4 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0 put it into the queue.
+Now the queue is:
+head=4  tail=9  size=5
+8 4 0 4 0 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0 put it into the queue.
+Now the queue is:
+head=4  tail=10  size=6
+8 4 0 4 0 0 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6 put it into the queue.
+Now the queue is:
+head=4  tail=11  size=7
+8 4 0 4 0 0 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 8 put it into the queue.
+Now the queue is:
+head=4  tail=0  size=8
+8 4 0 4 0 0 6 8 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4 put it into the queue.
+Now the queue is:
+head=4  tail=1  size=9
+8 4 0 4 0 0 6 8 4 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 5 put it into the queue.
+Now the queue is:
+head=4  tail=2  size=10
+8 4 0 4 0 0 6 8 4 5 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6 put it into the queue.
+Now the queue is:
+head=4  tail=3  size=11
+8 4 0 4 0 0 6 8 4 5 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6 put it into the queue.
+Now the queue is:
+head=4  tail=4  size=12
+8 4 0 4 0 0 6 8 4 5 6 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: ed
+Queue Overflow!
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: Number: 8 is DeQueued.
+Now the queue is:
+head=5  tail=4  size=11
+4 0 4 0 0 6 8 4 5 6 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4 is DeQueued.
+Now the queue is:
+head=6  tail=4  size=10
+0 4 0 0 6 8 4 5 6 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 0 is DeQueued.
+Now the queue is:
+head=7  tail=4  size=9
+4 0 0 6 8 4 5 6 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4 is DeQueued.
+Now the queue is:
+head=8  tail=4  size=8
+0 0 6 8 4 5 6 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: de
+Number: 0 is DeQueued.
+Now the queue is:
+head=9  tail=4  size=7
+0 6 8 4 5 6 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: Generated random number: 2 put it into the queue.
+Now the queue is:
+head=9  tail=5  size=8
+0 6 8 4 5 6 6 2 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 0 is DeQueued.
+Now the queue is:
+head=10  tail=5  size=7
+6 8 4 5 6 6 2 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: ed
+Generated random number: 6 put it into the queue.
+Now the queue is:
+head=10  tail=6  size=8
+6 8 4 5 6 6 2 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: Number: 6 is DeQueued.
+Now the queue is:
+head=11  tail=6  size=7
+8 4 5 6 6 2 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 3 put it into the queue.
+Now the queue is:
+head=11  tail=7  size=8
+8 4 5 6 6 2 6 3 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 8 is DeQueued.
+Now the queue is:
+head=0  tail=7  size=7
+4 5 6 6 2 6 3 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 8 put it into the queue.
+Now the queue is:
+head=0  tail=8  size=8
+4 5 6 6 2 6 3 8 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4 is DeQueued.
+Now the queue is:
+head=1  tail=8  size=7
+5 6 6 2 6 3 8 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6 put it into the queue.
+Now the queue is:
+head=1  tail=9  size=8
+5 6 6 2 6 3 8 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 5 is DeQueued.
+Now the queue is:
+head=2  tail=9  size=7
+6 6 2 6 3 8 6 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0 put it into the queue.
+Now the queue is:
+head=2  tail=10  size=8
+6 6 2 6 3 8 6 0 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 6 is DeQueued.
+Now the queue is:
+head=3  tail=10  size=7
+6 2 6 3 8 6 0 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: q
+Now testing the copy assignement and assignment operator!
+The copy constructor assigned q2 from q, the q2 is:
+head=3  tail=10  size=7
+6 2 6 3 8 6 0 
+The assignment operator: q3=q2. the q3 is:
+head=3  tail=10  size=7
+6 2 6 3 8 6 0 
+Now testing Queue Enqueue and DeQueue function:
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 1.18384 put it into the queue.
+Now the queue is:
+head=0  tail=1  size=1
+1.18384 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4.12785 put it into the queue.
+Now the queue is:
+head=0  tail=2  size=2
+1.18384 4.12785 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 1.97063 put it into the queue.
+Now the queue is:
+head=0  tail=3  size=3
+1.18384 4.12785 1.97063 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6.10978 put it into the queue.
+Now the queue is:
+head=0  tail=4  size=4
+1.18384 4.12785 1.97063 6.10978 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 8.41224 put it into the queue.
+Now the queue is:
+head=0  tail=5  size=5
+1.18384 4.12785 1.97063 6.10978 8.41224 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4.67475 put it into the queue.
+Now the queue is:
+head=0  tail=6  size=6
+1.18384 4.12785 1.97063 6.10978 8.41224 4.67475 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0.311149 put it into the queue.
+Now the queue is:
+head=0  tail=7  size=7
+1.18384 4.12785 1.97063 6.10978 8.41224 4.67475 0.311149 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4.7673 put it into the queue.
+Now the queue is:
+head=0  tail=8  size=8
+1.18384 4.12785 1.97063 6.10978 8.41224 4.67475 0.311149 4.7673 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0.0692837 put it into the queue.
+Now the queue is:
+head=0  tail=9  size=9
+1.18384 4.12785 1.97063 6.10978 8.41224 4.67475 0.311149 4.7673 0.0692837 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 1.18384 is DeQueued.
+Now the queue is:
+head=1  tail=9  size=8
+4.12785 1.97063 6.10978 8.41224 4.67475 0.311149 4.7673 0.0692837 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4.12785 is DeQueued.
+Now the queue is:
+head=2  tail=9  size=7
+1.97063 6.10978 8.41224 4.67475 0.311149 4.7673 0.0692837 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 1.97063 is DeQueued.
+Now the queue is:
+head=3  tail=9  size=6
+6.10978 8.41224 4.67475 0.311149 4.7673 0.0692837 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 6.10978 is DeQueued.
+Now the queue is:
+head=4  tail=9  size=5
+8.41224 4.67475 0.311149 4.7673 0.0692837 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0.60158 put it into the queue.
+Now the queue is:
+head=4  tail=10  size=6
+8.41224 4.67475 0.311149 4.7673 0.0692837 0.60158 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 8.41224 is DeQueued.
+Now the queue is:
+head=5  tail=10  size=5
+4.67475 0.311149 4.7673 0.0692837 0.60158 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6.18095 put it into the queue.
+Now the queue is:
+head=5  tail=11  size=6
+4.67475 0.311149 4.7673 0.0692837 0.60158 6.18095 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4.67475 is DeQueued.
+Now the queue is:
+head=6  tail=11  size=5
+0.311149 4.7673 0.0692837 0.60158 6.18095 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 8.37393 put it into the queue.
+Now the queue is:
+head=6  tail=0  size=6
+0.311149 4.7673 0.0692837 0.60158 6.18095 8.37393 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 0.311149 is DeQueued.
+Now the queue is:
+head=7  tail=0  size=5
+4.7673 0.0692837 0.60158 6.18095 8.37393 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4.7673 is DeQueued.
+Now the queue is:
+head=8  tail=0  size=4
+0.0692837 0.60158 6.18095 8.37393 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 0.0692837 is DeQueued.
+Now the queue is:
+head=9  tail=0  size=3
+0.60158 6.18095 8.37393 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 4.74236 put it into the queue.
+Now the queue is:
+head=9  tail=1  size=4
+0.60158 6.18095 8.37393 4.74236 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 5.88527 put it into the queue.
+Now the queue is:
+head=9  tail=2  size=5
+0.60158 6.18095 8.37393 4.74236 5.88527 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6.31072 put it into the queue.
+Now the queue is:
+head=9  tail=3  size=6
+0.60158 6.18095 8.37393 4.74236 5.88527 6.31072 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 0.60158 is DeQueued.
+Now the queue is:
+head=10  tail=3  size=5
+6.18095 8.37393 4.74236 5.88527 6.31072 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 6.18095 is DeQueued.
+Now the queue is:
+head=11  tail=3  size=4
+8.37393 4.74236 5.88527 6.31072 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 6.85978 put it into the queue.
+Now the queue is:
+head=11  tail=4  size=5
+8.37393 4.74236 5.88527 6.31072 6.85978 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 8.37393 is DeQueued.
+Now the queue is:
+head=0  tail=4  size=4
+4.74236 5.88527 6.31072 6.85978 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: e
+Generated random number: 0.427181 put it into the queue.
+Now the queue is:
+head=0  tail=5  size=5
+4.74236 5.88527 6.31072 6.85978 0.427181 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: d
+Number: 4.74236 is DeQueued.
+Now the queue is:
+head=1  tail=5  size=4
+5.88527 6.31072 6.85978 0.427181 
+EnQueue or DeQueue? press "E or e" for EnQueue, press "D or d" for DeQueue, press "Q or q" for quit: q
+Now testing the copy assignement and assignment operator!
+The copy constructor assigned q2 from q, the q2 is:
+head=1  tail=5  size=4
+5.88527 6.31072 6.85978 0.427181 
+The assignment operator: q3=q2. the q3 is:
+head=1  tail=5  size=4
+5.88527 6.31072 6.85978 0.427181 
+
